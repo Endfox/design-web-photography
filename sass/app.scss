@@ -1,0 +1,147 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+@import 'materialize.scss';
+
+
+nav{
+	.brand-logo{
+		color:black !important;
+		margin-left:2%;
+	}
+	div{
+		form{
+			margin-left:700px;
+			margin-right:300px;
+		}
+	}
+	ul li a{
+		color:black !important;
+	}
+	
+}
+
+.parallax, .parallax-container{
+	background:rgba(0,0,0,0.8);
+	background-size:250%;
+}
+
+
+#nav{
+	div{
+		text-align:center;
+		margin-top:2%;
+		font-size:$h5-fontsize;
+	}
+}
+
+.dropdown-content{
+	min-width: 200px;
+	margin:0%;
+	margin-left: -1px;
+	z-index: 1;
+	max-height: auto;
+	padding-top:3%;
+	background:none;
+	li{
+	background:white;
+	}
+}
+
+#sidenavelements{
+	margin-top:4.8%;
+	z-index:0;
+}
+
+.main{
+	padding-top:2%;
+ 	padding-left: 300px;
+}
+
+.col{
+	.card{
+		padding:2%;
+		span{
+			text-align:center;
+		}
+	}
+}
+
+
+
+
+.card-title{
+	text-align:center;
+}
+
+#registro{
+	background:rgba(255,255,255,1);
+}
+
+.card#table{
+	background:none;
+}
+
+.card{
+	background-color:rgba(200,200,200,0.2);
+	box-shadow: none;
+	.card-content{
+		.content-text{
+			letter-spacing: 2em !important;
+		}
+	}
+	.card-title{
+		color:black;
+	}
+	.date{
+		color:gray;
+	}
+}
+
+#card-footer{
+	margin-top:0;
+	margin-top:2%;
+	margin-bottom:0%;
+	margin-bottom:2%;
+}
+
+#tags{
+	margin-bottom: 1%;
+}
+
+#post-card{
+	height:550px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+
+@media #{$medium-and-down} {
+	nav{
+		.brand-logo{
+			margin-left:0px;
+		}
+	}
+
+	#nav{
+		div{
+			margin-top:2%;
+			font-size:$h5-fontsize;
+		}
+	}
+
+	.main{
+		padding-left:0px;
+	}
+}
+
+#time{
+	padding:0;
+	margin:0;
+}
+
+footer div div{
+	font-size: $h5-fontsize;
+	color:#BF58C4;
+}
