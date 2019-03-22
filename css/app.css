@@ -8212,4 +8212,16 @@ footer div div {
   color: #BF58C4;
 }
 
+#paralax-other {
+  height: 200px !important;
+}
+
+ul#list li {
+  list-style-type: circle;
+}
+
+.b {
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=app.css.map */
